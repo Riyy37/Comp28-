@@ -19,6 +19,7 @@ namespace ConsoleApp12
             InPut("Введите элемент массива: ", mas);
             int evenCount = CountEvenElements(mas);
             Console.WriteLine($"Количество чётных элементов: {evenCount}");
+            Console.ReadKey();
         }
 
         static void InPut(string message, int[] mas)
